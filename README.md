@@ -36,3 +36,9 @@ The code provides multiple endpoints to interact with tasks: viewing a specific 
 It includes error handling, like returning a "404 Not Found" error when a task doesn't exist, and proper success codes like "201 Created" for adding tasks, "204 No Content" for updates or deletions, and "200 OK" for general success. 
 Additionally, the app uses an API key stored in an environment file (.env) to authenticate requests and prevent unauthorized access, and it ensures that the .env file is kept secure by adding it to a .gitignore file. 
 The code also handles situations like when there are no tasks to show, returning a "204 No Content" status.
+
+# LAB5
+The objective is to take the API you developed in Laboratory Activity #4 which includes task management features like adding, updating, and deleting tasks, with authentication and versioning and deploy it to a cloud platform called Render. 
+Render is a cloud platform that allows you to easily host web applications, APIs, and databases. 
+In simpler terms, you need to upload your API code to Render so it can be accessed online by anyone, just like how websites are hosted on the internet. 
+This deployment process will allow your FastAPI app to run continuously on Render, making it publicly available without needing to keep your own computer running the app.
