@@ -38,7 +38,7 @@ Additionally, the app uses an API key stored in an environment file (.env) to au
 The code also handles situations like when there are no tasks to show, returning a "204 No Content" status.
 
 # LAB5
-The objective is to take the API you developed in Laboratory Activity #4 which includes task management features like adding, updating, and deleting tasks, with authentication and versioning and deploy it to a cloud platform called Render. 
-Render is a cloud platform that allows you to easily host web applications, APIs, and databases. 
-In simpler terms, you need to upload your API code to Render so it can be accessed online by anyone, just like how websites are hosted on the internet. 
-This deployment process will allow your FastAPI app to run continuously on Render, making it publicly available without needing to keep your own computer running the app.
+The objective is to deploy the API you developed in Laboratory Activity #4 to Render, a cloud platform that allows you to host web applications and APIs. 
+By deploying it to Render, your FastAPI app will be publicly accessible online, allowing users to interact with it through a URL. 
+After deploying, you can access the API documentation and test the endpoints directly at https://itec116-redillas.onrender.com/docs. 
+The deployment process involves uploading your code to Render and setting up the necessary configurations for the app to run in the cloud.
